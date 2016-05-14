@@ -21,6 +21,8 @@ describe('Clock', () => {
     });
   });
 
+  
+
   describe('formatSeconds' , () => {
     it('should format seconds', () => {
       var clock = TestUtils.renderIntoDocument(<Clock/>);
