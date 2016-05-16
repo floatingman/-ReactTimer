@@ -21,7 +21,7 @@ describe('Countdown', () => {
       setTimeout(() => {
         expect(countdown.state.count).toBe(9);
         done();
-      }, 1001)
+      }, 1001);
     });
 
     it('should not count less than zero', (done) => {
@@ -30,7 +30,7 @@ describe('Countdown', () => {
       setTimeout(() => {
         expect(countdown.state.count).toBe(0);
         done();
-      }, 3001)
+      }, 3001);
     });
 
     it('should pause countdown on paused status', () => {
